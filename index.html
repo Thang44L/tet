@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dear Thảo - Tết Letter</title>
+    <style>
+      body {
+        font-family: "Courier New", Courier, monospace;
+        background-color: #ffefd5; /* Warm peach background */
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-image: url("https://www.transparenttextures.com/patterns/soft-wallpaper.png"); /* Subtle texture */
+      }
+      .container {
+        background: linear-gradient(to bottom, #ffecd2, #fcb69f);
+        padding: 20px;
+        border-radius: 20px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        max-width: 500px;
+        text-align: left;
+        position: relative;
+      }
+      .container:before {
+        content: "";
+        position: absolute;
+        top: -10px;
+        right: -10px;
+        bottom: -10px;
+        left: -10px;
+        background: url("https://i.imgur.com/3VfRZm6.png"); /* Floral frame */
+        background-size: cover;
+        background-repeat: no-repeat;
+        z-index: -1;
+        border-radius: 20px;
+      }
+      h1 {
+        font-size: 1.5rem;
+        color: #d6336c;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      p {
+        font-size: 1rem;
+        line-height: 1.6;
+        color: #333;
+        white-space: pre-wrap; /* Preserve line breaks */
+      }
+      .signature {
+        font-size: 1rem;
+        text-align: right;
+        margin-top: 20px;
+        color: #d6336c;
+      }
+      @media (max-width: 768px) {
+        .container {
+          padding: 15px;
+        }
+        h1 {
+          font-size: 1.25rem;
+        }
+        p {
+          font-size: 0.9rem;
+        }
+        .signature {
+          font-size: 0.9rem;
+        }
+        .conran {
+          display: none;
+        }
+        img.conran2 {
+          object-fit: cover;
+          width: 50%;
+          position: absolute;
+          right: 0;
+          top: -40px;
+          z-index: 1;
+        }
+        img.chauhoa1 {
+          width: 100%;
+          height: auto;
+        }
+        img.chauhoa2 {
+          position: absolute;
+          width: 45%;
+          height: auto;
+          bottom: 0;
+          left: 0;
+          z-index: 1;
+        }
+      }
+
+      @media (max-width: 480px) {
+        h1 {
+          font-size: 1rem;
+        }
+        p {
+          font-size: 0.8rem;
+        }
+        .signature {
+          font-size: 0.8rem;
+        }
+        .conran {
+          display: none;
+        }
+        img.conran2 {
+          object-fit: cover;
+          width: 50%;
+          position: absolute;
+          right: 0;
+          top: -40px;
+          z-index: 1;
+        }
+        img.chauhoa2 {
+          position: absolute;
+          width: 45%;
+          height: auto;
+          bottom: 0;
+          left: 0;
+          z-index: 1;
+        }
+      }
+      .conran {
+        object-fit: cover;
+        width: 25%;
+        height: 25%;
+        position: absolute;
+        top: 0;
+        z-index: 1;
+        left: 300px;
+      }
+      .conran2 {
+        object-fit: cover;
+        width: 25%;
+        height: 25%;
+        position: absolute;
+        top: -10px;
+        z-index: 1;
+        right: 300px;
+      }
+      .chauhoa1 {
+        width: 30%;
+        height: auto;
+        position: absolute;
+        left: 0;
+      }
+      .chauhoa2 {
+        width: 30%;
+        height: auto;
+        position: absolute;
+        right: 0;
+      }
+      .falling {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        background-color: #ffd700;
+        border-radius: 50%;
+        box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+        animation: fall 5s linear infinite;
+        z-index: 0;
+      }
+      .falling:before {
+        content: "";
+        position: absolute;
+        width: 8px;
+        height: 8px;
+        background-color: #ff69b4;
+        border-radius: 50%;
+        top: 6px;
+        left: 6px;
+      }
+      @keyframes fall {
+        0% {
+          transform: translateY(-100px);
+          opacity: 1;
+        }
+        100% {
+          transform: translateY(10vh);
+          opacity: 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <img src="./images/hoamaivang.png" alt="" class="chauhoa1" />
+    <img src="./images/conran2025.png" alt="" class="conran" />
+    <div class="container">
+      <h1 style="font-size: 40px">Dear Thảo,</h1>
+      <p>
+        "Thảo oi t bik là gửi này nó hơi muộn. Nhưng mà tui cũng nên gửi lời xin
+        lỗi cuối năm trước khi qua năm mới để mong bạn tha thứ cho mình, hy vọng
+        là sẽ được cơ hội để sửa sai chuộc lỗi với bạn để mà có thể đc rủ bạn đi
+        chơi trong năm tới. ! Happy New Year ! Chúc m năm mới vui vẻ, keep sức
+        khỏe cũng như là 1 lần nữa xin đc tha thứ :< . -----Ko chat GPT!!!!!!!!
+        [Viết tay]--------------"
+      </p>
+      <p>
+        Vì cái này làm hơi gấp nên nếu bạn tha thứ cho tui và cũng như là mún
+        nâng cấp thì cho tui 5 ngày tui sẽ làm ra thứ có thể chưa xuất hiện trên
+        thị trường.
+        <span style="color: red; font-weight: bold"
+          >NHẤN MẠNH LÀ CÓ THỂ THUI!</span
+        >
+      </p>
+      <div class="signature">
+        "Sincerely, <br />
+        Phạm Thắng"
+      </div>
+    </div>
+    <img src="./images/conran2025.png" alt="" class="conran2" />
+    <img src="./images/hoamaivang.png" alt="" class="chauhoa2" />
+    <!-- Falling objects -->
+    <div class="falling" style="left: 20%; animation-delay: 0s"></div>
+    <div class="falling" style="right: 360px; animation-delay: 0.5s"></div>
+    <div class="falling" style="left: 20%; animation-delay: 2s"></div>
+    <div class="falling" style="right: 300px; animation-delay: 3s"></div>
+
+    <div class="falling" style="left: 20%; animation-delay: 0s"></div>
+    <div class="falling" style="right: 350px; animation-delay: 1s"></div>
+    <div class="falling" style="left: 20%; animation-delay: 2s"></div>
+    <div class="falling" style="right: 300px; animation-delay: 3s"></div>
+
+    <div class="falling" style="left: 20%; animation-delay: 0s"></div>
+    <div class="falling" style="right: 500px; animation-delay: 0.5s"></div>
+    <div class="falling" style="left: 20%; animation-delay: 2s"></div>
+    <div class="falling" style="right: 300px; animation-delay: 3s"></div>
+    <!-- Fireworks -->
+  </body>
+</html>
